@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Формы</h1>
+<form>
+<div>
+    <label for="text1">текст</label>
+    <input type="text" id="text1" value="Текст по умолчанию">
+</div>
+
+<div>
+    <label for="text1">текст</label>
+    <input type="text" id="text1" value="Текст по умолчанию"
+    readonly>
+</div>
+
+<div>
+    <label for="Email">Email</label>
+    <input type="email" id="Email" placeholder="Введите адрес">
+</div>
+
+<div>
+    <label for="pass">Пароль</label>
+    <input type="password" id="pass">
+</div>
+
+<div>
+    <label for="numb">Число</label>
+    <input type="number" id="numb" min="-5" max="4">
+</div>
+
+<div>
+    <label for="rang">Ползунок</label>
+    <input type="range" id="rang" min="-10" max="14"
+    step="2">
+</div>
+
+<div>
+    <label for="date">Дата</label>
+    <input type="date" id="date">
+</div>
+
+<div>
+    <label for="color">Цвет</label>
+    <input type="color" id="color">
+</div>
+
+<div>
+<label for="message">Сообщение:</label>
+<br>
+<textarea name="имя" id="message" cols="100" rows="5"></textarea>
+</div>
+
+<div>
+    <label for="sex">Ваш пол</label>
+    <select name="" id="sex">
+        <option value="male">Мужчина</option>
+        <option value="female" selected>Женщина</option>
+        <option value="other">Не определился</option>
+    </select>
+</div>
+
+<div>
+    <label>Количество работ</label>
+    <input type="radio" name="work">1
+    <input type="radio" name="work">3
+    <input type="radio" name="work">5
+    <input type="radio" name="work">10+
+</div>
+
+<div>
+    <label>Любимая еда</label>
+    <input type="checkbox" name="food">Борш
+    <input type="checkbox" name="food">Том Ям
+    <input type="checkbox" name="food">Салат
+    <input type="checkbox" name="food">Морепродукты
+</div>
+
+<!-- <input type="submit" value="Отправить форму"> -->
+
+<button type="submit">Отправить форму</button>
+
+</form>
+
+
+
+</body>
+</html>
